@@ -3,6 +3,7 @@ import requests
 
 
 def download_data():
+    """Download necessary data files if they do not already exist"""
     data_files = {
         "lpgrs_high1_elem_abundance_5deg.tab": "https://pds-geosciences.wustl.edu/lunar/lp-l-grs-5-elem-abundance-v1/lp_9001/data/lpgrs_high1_elem_abundance_5deg.tab",
         "lpgrs_high1_elem_abundance_5deg.lbl": "https://pds-geosciences.wustl.edu/lunar/lp-l-grs-5-elem-abundance-v1/lp_9001/data/lpgrs_high1_elem_abundance_5deg.lbl",
